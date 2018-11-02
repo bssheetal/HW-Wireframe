@@ -3,53 +3,81 @@ body
 {
     background:#777;
     font-family:Arial, Helvetica, sans-serif;   
- 
+    text-align: center;
+    width: 80%;
+    margin:auto;
+    padding:4px;
 
 }
 header
 {
     background: #ebebeb;
-    padding:2px;
-    margin-bottom:5px;
-    margin-left: 60px;
-    margin-right:60px;
-    text-align:center;
+    margin-bottom:5px;       
     height:40px;
+    padding:2px;
+    margin-top:4px;
+    
 
 }
 
 nav
 {
     background: #ebebeb;
-   padding:10px;
-   margin-bottom:10px;
-    margin-left: 60px;
-    margin-right:60px;
-    text-align: center;
+    margin-bottom:10px;       
+    padding:2px;
 
 }
 
 section
 {
-   
+   height:240px;
     
 }
 
 #left{
 
     background: #ebebeb;
-    width:46%;  
-    margin-left: 59px;
+    width:46%;      
     float:left;
     margin-bottom: 20px;
     height:250px;
 }
 
-.box-3
+article
+{
+    background: #777;
+    width:95%;  
+    margin-left: 2%;
+    height:160px;
+    padding:4px;
+    
+    
+}
+
+p
+{
+      
+    background: #ebebeb;
+    width:99%; 
+    height:40px;
+    margin-bottom:5px;       
+    padding:1px;
+    margin-top:1px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+#header2{
+    width:60%; 
+    text-align: center;
+
+}
+aside
 {
     background: #ebebeb;
     margin-left:10px;
-    width:47%;  
+    width:53%;  
     float:left;
     height:250px;
     text-align: center;
@@ -60,40 +88,8 @@ footer
 {
     clear:both;
     background: #ebebeb;
-    margin-left: 60px;
-    margin-right:60px;
-    padding:10px;
-    text-align: center;
+    padding:2px;
     overflow:auto;
     
 }
 
-article
-{
-    background: #777;
-    width:95%;  
-    margin-left: 2%;
-    text-align: center;
-    
-}
-
-h3
-{  
-    
-    width:420px;
-    
-}
-
-p
-{
-      
-    background: #ebebeb;
-    padding:2px;
-    width:85%;
-    margin-bottom:100px;
-    margin-left: 60px;
-    margin-right:60px;
-    text-align:center;
-    height:40px;
-    
-}
